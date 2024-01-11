@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <br><br>
+    <div class="container">
+        <div class="panel panel-default border  rounded-3"> 
+            <div class="panel-heading">
+                <div class="panel-title border p-3 fw-bold fs-5 rounded-3">
+                    <i class="bi bi-pencil-square"></i>
+                    NHẬP LƯƠNG THÁNG 12
+                </div>
+            </div>
+        <div class="panel-body p-3"> 
+            <form class="row">
+                <div class="mb-3 col-sm-6">
+                    <label for="exampleFormControlInput1" class="form-label fw-bold">Mã nhân viên</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+                <div class="mb-3 col-sm-6">
+                    <label for="exampleFormControlInput1" class="form-label fw-bold">Họ tên</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+                <div class="mb-3 col-sm-6">
+                    <label for="exampleFormControlInput1" class="form-label fw-bold">Câu lạc bộ</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Chọn câu lạc bộ</option>
+                        <option value="1">CLB 1</option>
+                        <option value="2">CLB 2</option>
+                        <option value="3">CLB 3</option>
+                      </select>
+                </div>
+                <div class="mb-3 col-sm-6">
+                    <label for="basic-url" class="form-label fw-bold">Lương</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon3">$</span>
+                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        <span class="input-group-text" id="basic-addon3">.00</span>
+                    </div>
+                </div>
+                <div class="mb-3 col-sm-6">
+                    <label for="basic-url" class="form-label fw-bold">Thưởng</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon3">$</span>
+                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        <span class="input-group-text" id="basic-addon3">.00</span>
+                    </div>
+                </div>
+                <div class="mb-3 col-sm-6">
+                    <label for="basic-url" class="form-label fw-bold">Phụ cấp</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon3">$</span>
+                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        <span class="input-group-text" id="basic-addon3">.00</span>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label fw-bold">Ghi chú</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <input type="submit" class="btn-check" id="btn-check" autocomplete="off">
+                <label class="btn btn-light col-sm-1  border rounded-3" for="btn-check">Lưu</label>
+                <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
+                <label class="btn btn-light col-sm-1 ms-3  border rounded-3" for="btn-check">Hủy</label>
+    
+            </form>
+        </div>
+            <div class="panel-footer m-4">
+                Vui lòng nhập thông tin cầu thủ
+            </div>
+        </div>
+    </div>
+</body>
+</html>
